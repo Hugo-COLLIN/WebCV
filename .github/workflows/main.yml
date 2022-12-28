@@ -4,15 +4,7 @@ jobs:
   updateCv:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          repository: ${{github.event.client_payload.pull_request.head.repo.full_name}}
-          ref: ${{github.event.client_payload.pull_request.head.ref}}
-          token: ${{ secrets.PAT }}
-      - name: Slash Command Dispatch
-        run: black .
-      - run: |
-        npm install
-        npx resumed render resume.json --theme mooser
-        mkdir public
-        mv resume.html public/index. html
+      - run: npm install
+      - run: npx resumed render resume.json --theme mooser
+      - run: mkdir public
+      - run: mv resume.html public/index. html
