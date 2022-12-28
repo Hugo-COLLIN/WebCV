@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Hugo COLLIN's Resume">
+    <meta name="keywords" content="Resume, CV, Job History, Contact">
+    <meta name="author" content="Santiago Espinosa Mooser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hugo COLLIN's Resume Website</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+  font-size: 1.6em;
+  overflow:auto
+}
+blockquote {
+  font-size: 1.2em;
+}
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+  max-width: 100%;
+  min-width: 15%;
+  border-radius: 25px;
+  min-width: auto;
+  margin-right: auto;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+#content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#left-column {
+  padding-left: 3%;
+  padding-right: 1%;
+  max-width: 100%;
+  min-width: 300;
+}
+#right-column {
+  padding-left: 1%;
+  padding-right: 3%;
+  max-width: 100%;
+  min-width: 30%;
+}
+
+#references {
+  word-wrap: break-word;
+}
+#reference {
+  text-align: left;
+}
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+#textbox {
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.alignleft {
+width:50%;
+text-align:left;
+word-wrap: break-word;
+}
+.alignright {
+width:50%;
+text-align:right;
+word-wrap: break-word;
+}
+
+
+#content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#left-column{
+  padding-left: 2%;
+  padding-right: 1.5%;
+}
+#right-column{
+  padding-right: 2%;
+  padding-left: 1.5%;
+}
+.box{
+  padding-bottom: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 20px 20px 0;
+}
+
+#awards,
+#education{
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+opacity: 0.7;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+#awards .description,
+#education .description{
+  border-radius: 15px;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  page-break-inside: avoid;
+}
+
+.job{
+  margin-bottom: 15px;
+  page-break-inside: avoid;
+}
+.job .details {
+  padding: 10px;
+  background: #eee;
+  border-radius: 15px 15px 0 0;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .address{
+  word-break: break-all;
+  text-align: left;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.job .job-details {
+  width: 100%;
+  border: 1px solid #eee;
+  padding-top: 10px;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 0 0 15px 15px;
+
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+  margin: 4px;
+}
+.contact-item .icon{
+  padding: 10px;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#languages{
+  min-width: max-content
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+
+  padding-left: 30px;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;17310475b59234f24cc1dfd927b0e722?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Hugo COLLIN<br><span>🔍 A la recherche d&#39;un stage de 8 à 10 semaines en Développement Logiciel : 20 Février - 28 Avril 2023 | Étudiant en informatique et autodidacte</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="content">
+        <div class="col-xs-12 col-sm-8" id="left-column">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Je suis actuellement en deuxième année de BUT Informatique.
+
+Curieux et créatif, j'aspire à créer des produits innovants et utiles répondant aux besoins des utilisateurs. Je souhaite créer mon entreprise à la suite de mes études afin de réaliser les projets qui me tiennent à cœur.
+
+L'informatique est un secteur d'avenir, et je souhaite y apporter ma contribution, notamment dans les domaines du développement web et des systèmes d'exploitation.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">IUT Nancy-Charlemagne</p>
+                      <p class="alignright">Nancy, Grand Est, France</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="address alignleft">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;11242027" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;11242027</a>
+                      </div>
+                      <div class="year alignright">Sep 2021 – Present</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Étudiant en BUT Informatique</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Hug journal</p>
+                      <p class="alignright">www.cracahouetes.canalblog.com</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Jan 2013 – Jan 2019</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Blogueur</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Barrès &amp; Co, Collège Maurice Barrès</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Sep 2017 – Jun 2018</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Chroniqueur radio</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Le Cnam en Grand Est</p>
+                      <p class="alignright">Nancy, Grand Est, France</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="address alignleft">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;11134420" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;11134420</a>
+                      </div>
+                      <div class="year alignright">Dec 2017 – Dec 2017</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Stage de 3ème</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- PROJECTS -->
+          <div class="box">
+            <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Développement d&#39;un éditeur de diagrammes UML en JavaFX - SAE Développement d&#39;une application</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Etude de cas de la salle de sport Limaga - R3.03 Méthodologie de Production d&#39;Applications (Analyse)</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Développement du site de streaming NetVOD (PHP, CSS, HTML) - SAE Développement d&#39;une application web sécurisée</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Cesim - Simulation de gestion de projet</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Autoévaluation de mes compétences dans Compact - Portfolio Semestre 2</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Configuration d&#39;un serveur web - S2.03 Installation de services réseau</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Le projet Zeldiablo - S2.01 Développement d’une application</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Organisation d’un festival culturel - S2.06 Organisation d’un travail d’équipe</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Projet Switch Off The Lights - R2.05 Développement d&#39;apps avec IHM (Interface Homme-Machine)</span>:
+                <br>
+                
+              </li>
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">BUT INFO : Recherche de plus court chemin dans un graphe - S2.02 Exploration algorithmique d&#39;un problème</span>:
+                <br>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4" id="right-column">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">France</div>
+              <div class="title  pull-right"> FR</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:h.collin01@outlook.fr" target="_blank">h.collin01@outlook.fr</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@hugocollin-portfolio" target="_blank">https:&#x2F;&#x2F;www.youtube.com&#x2F;@hugocollin-portfolio</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;hugocollin&#x2F;" target="_blank">hugocollin</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="description pull-right">
+                  <h3>Université de Lorraine</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> BUT Informatique</p>
+                  <p>Réalisation, déploiement et intégration d&#39;applications, gestion des données</p>
+                  <div class="year">2021 - Present</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>OpenClassrooms</h3>
+                  <div class="where"></div>
+                  <div class="year">2021 - Present</div>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Mathieu Nebra - Devenez auto-entrepreneur</li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Lycée Pierre Mendès France, Epinal</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Baccalauréat général</p>
+                  <p>spécialités Mathématiques, Sciences de l&#39;Ingénieur et Informatique (NSI)</p>
+                  <p>
+                    Grade: Mention Bien
+                  </p>
+                  <div class="year">2018 - 2021</div>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">null - Option ICN - Informatique et Création Numérique 2de</li>
+                      <li class="list-group-item">null - Option Maths étoiles - 1ère</li>
+                      <li class="list-group-item">null - NSI - Informatique 1re (Spé)</li>
+                      <li class="list-group-item">null - Mathématiques (Spé)</li>
+                      <li class="list-group-item">null - Sciences de l'Ingénieur (Spé) et Sciences physiques Tle</li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Udemy</h3>
+                  <div class="where"></div>
+                  <div class="year">2019 - Present</div>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">John Taïeb - Formation complète Développeur Web (HTML/CSS, Javascript, JQuery, Bootstrap, PHP)</li>
+                      <li class="list-group-item">Matthieu Blanco - Créer son podcast</li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Koober</h3>
+                  <div class="where"></div>
+                  <div class="year">2019 - Present</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>SymfonyCasts</h3>
+                  <div class="where"></div>
+                  <div class="year">2022 - Present</div>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">null - Learn Symfony 6</li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Orthodidacte</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Dans le cadre du BUT Informatique</p>
+                  <p>Maîtrise de la communication écrite en français</p>
+                  <p>
+                    Grade: N4
+                  </p>
+                  <div class="year">2021 - 2022</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Fun-MOOC</h3>
+                  <div class="where"></div>
+                  <div class="year">2019 - Present</div>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Université de Lorraine - Les métiers du numérique pour inventer le monde de demain</li>
+                      <li class="list-group-item">Inria - S'initier à l'enseignement en Sciences Numériques et Technologie</li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Développement web
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Programmation orientée objet (POO)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Communication écrite avancée
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Méthodologies de développement de logiciels
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Gestion de projet
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Rédaction d’articles de fond
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  MySQL
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Paramétrer des équipements
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Rédaction d’articles
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Moodle
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  PL&#x2F;SQL
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Linux
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Shell Linux
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Rédaction de contenu web
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Systems Modeling Language (SysML)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Production de newsletters
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  PHP
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Documentation technique
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  PhpMyAdmin
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Montage vidéo
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Java
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Podcasting
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Gestion de planning
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Illustrations animées
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Production radio
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Framework Symfony
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SOLIDWORKS
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Microsoft Power BI
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  HTML
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Feuilles de style en cascade (CSS)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Illustrations éditoriales
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Bash
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Développement de logiciels
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Communication visuelle
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Twig
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  IntelliJ IDEA
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Podcasts vidéo
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Oracle SQL Developer
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Illustration vectorielle
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Balsamiq Wireframes
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Langage de modélisation unifié (UML)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Rédaction
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box" id="languages">
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">fr  <span class="skill badge pull-right">Native Speaker</span></li>
+              <li class=" list-group-item">Anglais  <span class="skill badge pull-right">Limited Working</span></li>
+              <li class=" list-group-item">Espagnol  <span class="skill badge pull-right">Elementary</span></li>
+              <li class=" list-group-item">Français  <span class="skill badge pull-right">Native Speaker</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
