@@ -1,0 +1,12 @@
+name: first-github-action
+on: push
+jobs:
+  updateCv:
+    runs-on: ubuntu-latest
+    container: node:14
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: npx resumed render resume.json --theme mooser
+      - run: mkdir public
+      - run: mv resume.html public/index.html
