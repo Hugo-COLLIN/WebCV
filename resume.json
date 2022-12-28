@@ -1,164 +1,497 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
+    "name": "Hugo COLLIN",
+    "label": "🔍 A la recherche d'un stage de 8 à 10 semaines en Développement Logiciel : 20 Février - 28 Avril 2023 | Étudiant en informatique et autodidacte",
     "image": "",
-    "email": "richard.hendriks@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "h.collin01@outlook.fr",
+    "phone": "",
+    "url": "https://www.youtube.com/@hugocollin-portfolio",
+    "summary": "Je suis actuellement en deuxième année de BUT Informatique.\n\nCurieux et créatif, j'aspire à créer des produits innovants et utiles répondant aux besoins des utilisateurs. Je souhaite créer mon entreprise à la suite de mes études afin de réaliser les projets qui me tiennent à cœur.\n\nL'informatique est un secteur d'avenir, et je souhaite y apporter ma contribution, notamment dans les domaines du développement web et des systèmes d'exploitation.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "countryCode": "FR",
+      "address": "France"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "hugocollin",
+        "url": "https://www.linkedin.com/in/hugocollin/"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
+      "name": "IUT Nancy-Charlemagne",
+      "position": "Étudiant en BUT Informatique",
+      "startDate": "2021-09-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/11242027",
+      "location": "Nancy, Grand Est, France"
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "name": "Hug journal",
+      "position": "Blogueur",
+      "startDate": "2013-01-31",
+      "endDate": "2019-01-31",
+      "highlights": [],
+      "summary": null,
+      "url": "",
+      "location": "www.cracahouetes.canalblog.com"
+    },
+    {
+      "name": "Barrès & Co, Collège Maurice Barrès",
+      "position": "Chroniqueur radio",
+      "startDate": "2017-09-30",
+      "endDate": "2018-06-30",
+      "highlights": [],
+      "summary": null,
+      "url": "",
+      "location": null
+    },
+    {
+      "name": "Le Cnam en Grand Est",
+      "position": "Stage de 3ème",
+      "startDate": "2017-12-31",
+      "endDate": "2017-12-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/11134420",
+      "location": "Nancy, Grand Est, France"
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "institution": "Université de Lorraine",
+      "area": "Réalisation, déploiement et intégration d'applications, gestion des données",
+      "studyType": "BUT Informatique",
+      "startDate": "2021-09-30",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "OpenClassrooms",
+      "area": "Design, Entreprenariat",
+      "studyType": "",
+      "startDate": "2021-12-31",
+      "endDate": "",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Mathieu Nebra - Devenez auto-entrepreneur"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+      "institution": "Lycée Pierre Mendès France, Epinal",
+      "area": "spécialités Mathématiques, Sciences de l'Ingénieur et Informatique (NSI)",
+      "studyType": "Baccalauréat général",
+      "startDate": "2018-09-30",
+      "endDate": "2021-07-31",
+      "score": "Mention Bien",
+      "courses": [
+        "null - Option ICN - Informatique et Création Numérique 2de",
+        "null - Option Maths étoiles - 1ère",
+        "null - NSI - Informatique 1re (Spé)",
+        "null - Mathématiques (Spé)",
+        "null - Sciences de l'Ingénieur (Spé) et Sciences physiques Tle"
       ]
+    },
+    {
+      "institution": "Udemy",
+      "area": "Programmation, Entreprenariat, Marketing, Communication, Audiovisuel",
+      "studyType": "",
+      "startDate": "2019-12-31",
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "John Taïeb - Formation complète Développeur Web (HTML/CSS, Javascript, JQuery, Bootstrap, PHP)",
+        "Matthieu Blanco - Créer son podcast"
+      ]
+    },
+    {
+      "institution": "Koober",
+      "area": "Investissement, Entreprenariat, Productivité",
+      "studyType": "",
+      "startDate": "2019-12-31",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "SymfonyCasts",
+      "area": "Programmation informatique",
+      "studyType": "",
+      "startDate": "2022-12-31",
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "null - Learn Symfony 6"
+      ]
+    },
+    {
+      "institution": "Orthodidacte",
+      "area": "Maîtrise de la communication écrite en français",
+      "studyType": "Dans le cadre du BUT Informatique",
+      "startDate": "2021-09-30",
+      "endDate": "2022-04-30",
+      "score": "N4",
+      "courses": []
+    },
+    {
+      "institution": "Fun-MOOC",
+      "area": "Technologie informatique / technologie des systèmes informatiques",
+      "studyType": "",
+      "startDate": "2019-12-31",
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "Université de Lorraine - Les métiers du numérique pour inventer le monde de demain",
+        "Inria - S'initier à l'enseignement en Sciences Numériques et Technologie"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Baccalauréat Général, spécialités Mathématiques, Sciences de l'Ingénieur, NSI (Informatique)",
+      "issuer": "Lycée Pierre Mendes France",
+      "startDate": "2021-07-31"
+    },
+    {
+      "name": "Créer son podcast",
+      "issuer": "Udemy",
+      "startDate": "2022-07-31",
+      "url": "https://www.udemy.com/certificate/UC-afe7ab7e-fd00-4573-b7fe-4de56ccee3c0/"
+    },
+    {
+      "name": "Les métiers du numérique pour inventer le monde de demain",
+      "issuer": "France Université Numérique",
+      "startDate": "2021-06-30",
+      "url": "https://www.fun-mooc.fr/fr/cours/les-metiers-du-numerique-pour-inventer-le-monde-de-demain/"
+    },
+    {
+      "name": "S'initier à l'enseignement en Sciences Numériques et Technologie",
+      "issuer": "France Université Numérique",
+      "startDate": "2019-03-31",
+      "url": "https://www.fun-mooc.fr/fr/cours/sinitier-a-lenseignement-en-sciences-numeriques-et-technologie/"
+    },
+    {
+      "name": "Harmonious Development with Symfony 6",
+      "issuer": "SymfonyCasts",
+      "startDate": "2022-11-30",
+      "url": "https://symfonycasts.com/certificates/2B595342C141"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Développement web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programmation orientée objet (POO)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication écrite avancée",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Méthodologies de développement de logiciels",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rédaction d’articles de fond",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Paramétrer des équipements",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rédaction d’articles",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Moodle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PL/SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Shell Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rédaction de contenu web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Systems Modeling Language (SysML)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Production de newsletters",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Documentation technique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PhpMyAdmin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Montage vidéo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Podcasting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrations animées",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Production radio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Framework Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOLIDWORKS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Power BI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Feuilles de style en cascade (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrations éditoriales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Développement de logiciels",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication visuelle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Twig",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Podcasts vidéo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Oracle SQL Developer",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustration vectorielle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Balsamiq Wireframes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Langage de modélisation unifié (UML)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rédaction",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+      "language": "fr",
+      "fluency": "Native Speaker"
+    },
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
+      "fluency": "Limited Working",
+      "language": "Anglais"
+    },
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "fluency": "Elementary",
+      "language": "Espagnol"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Français"
     }
   ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
+      "name": "BUT INFO : Développement d'un éditeur de diagrammes UML en JavaFX - SAE Développement d'une application",
+      "startDate": "2022-12-31",
+      "summary": null,
+      "url": null,
+      "endDate": "2022-12-31"
+    },
+    {
+      "name": "BUT INFO : Etude de cas de la salle de sport Limaga - R3.03 Méthodologie de Production d'Applications (Analyse)",
+      "startDate": "2022-11-30",
+      "summary": null,
+      "url": null,
+      "endDate": "2022-12-31"
+    },
+    {
+      "name": "BUT INFO : Développement du site de streaming NetVOD (PHP, CSS, HTML) - SAE Développement d'une application web sécurisée",
+      "startDate": "2022-11-30",
+      "summary": null,
+      "url": "https://github.com/Azuras03/SAE_Dev_Web-S3A",
+      "endDate": "2022-11-30"
+    },
+    {
+      "name": "BUT INFO : Cesim - Simulation de gestion de projet",
+      "startDate": "2022-09-30",
+      "summary": null,
+      "url": null,
+      "endDate": "2022-10-31"
+    },
+    {
+      "name": "BUT INFO : Autoévaluation de mes compétences dans Compact - Portfolio Semestre 2",
+      "startDate": "2022-04-30",
+      "summary": null,
+      "url": "https://www.linkedin.com/pulse/info-pr%25C3%25A9sentation-et-auto%25C3%25A9valuation-de-mes-dans-compact-hugo-collin/?trackingId=vhRwOOHfdCbBGV2OVavg5Q%3D%3D",
+      "endDate": "2022-07-31"
+    },
+    {
+      "name": "BUT INFO : Configuration d'un serveur web - S2.03 Installation de services réseau",
+      "startDate": "2022-06-30",
+      "summary": null,
+      "url": "https://github.com/Hugo-COLLIN/BUT_INFO_S2_2022_WebServer_Hugo_Greg",
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "BUT INFO : Le projet Zeldiablo - S2.01 Développement d’une application",
+      "startDate": "2022-06-30",
+      "summary": null,
+      "url": "https://github.com/Hugo-COLLIN/BUT_INFO_S2_2022_Zeldiablo",
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "BUT INFO : Organisation d’un festival culturel - S2.06 Organisation d’un travail d’équipe",
+      "startDate": "2022-06-30",
+      "summary": null,
+      "url": null,
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "BUT INFO : Projet Switch Off The Lights - R2.05 Développement d'apps avec IHM (Interface Homme-Machine)",
+      "startDate": "2022-06-30",
+      "summary": null,
+      "url": "https://github.com/Hugo-COLLIN/BUT_INFO_S2_IHM_SwitchOffTheLight",
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "BUT INFO : Recherche de plus court chemin dans un graphe - S2.02 Exploration algorithmique d'un problème",
+      "startDate": "2022-06-30",
+      "summary": null,
+      "url": "https://github.com/Hugo-COLLIN/BUT_INFO_S2_SAE2.02_Graphes",
+      "endDate": "2022-06-30"
     }
   ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
 }
