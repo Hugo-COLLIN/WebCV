@@ -1,0 +1,18 @@
+name: first-github-action
+on: push
+jobs:
+  updateCv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{github.event.client_payload.pull_request.head.repo.full_name}}
+          ref: ${{github.event.client_payload.pull_request.head.ref}}
+          token: ${{ secrets.PAT }}
+      - name: Slash Command Dispatch
+        run: black .
+      - run: |
+        npm install
+        npx resumed render resume.json --theme mooser
+        mkdir public
+        mv resume.html public/index. html
